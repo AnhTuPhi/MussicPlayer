@@ -11,12 +11,7 @@ const cover = document.getElementById('cover');
 
 // Song titles
 const songs = ['TuChoiNheNhangThoi', 'VaTheLaHet', 'HanhTinhSongSong', 'MotGiacMo', 'VungKyUc'];
-var test = ['Check ip', 'test sp'];
-for (var i = 0; i < test.length; i++) {
-  test[i] = test[i].trim();
-  console.log(test[1]);
-}
-console.log(test);
+
 // Keep track of song
 let songIndex = 4;
 
